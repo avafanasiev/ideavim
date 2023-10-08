@@ -215,8 +215,7 @@ internal class OptionsTracer(
     ignoreFlag.set(true)
     try {
       vimOptionGroup.addGlobalOptionChangeListener(option, listener)
-    }
-    finally {
+    } finally {
       ignoreFlag.set(false)
     }
   }
@@ -228,8 +227,7 @@ internal class OptionsTracer(
     ignoreFlag.set(true)
     try {
       vimOptionGroup.removeGlobalOptionChangeListener(option, listener)
-    }
-    finally {
+    } finally {
       ignoreFlag.set(false)
     }
   }
@@ -241,8 +239,7 @@ internal class OptionsTracer(
     ignoreFlag.set(true)
     try {
       vimOptionGroup.addEffectiveOptionValueChangeListener(option, listener)
-    }
-    finally {
+    } finally {
       ignoreFlag.set(false)
     }
   }
@@ -254,8 +251,7 @@ internal class OptionsTracer(
     ignoreFlag.set(true)
     try {
       vimOptionGroup.removeEffectiveOptionValueChangeListener(option, listener)
-    }
-    finally {
+    } finally {
       ignoreFlag.set(false)
     }
   }
