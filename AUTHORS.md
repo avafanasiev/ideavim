@@ -483,6 +483,10 @@ Contributors:
   [![icon][github]](https://github.com/ludwig-jb)
   &nbsp;
   ludwig-jb
+* [![icon][mail]](mailto:megabochka@gmail.com)
+  [![icon][github]](https://github.com/avafanasiev)
+  &nbsp;
+  Alexey Afanasiev
 
 Previous contributors:
 
