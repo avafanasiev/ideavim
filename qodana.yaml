@@ -1,6 +1,7 @@
 version: 1.0
 profile:
   name: Qodana
+projectJDK: 17
 include:
   - name: CheckDependencyLicenses
 exclude:
